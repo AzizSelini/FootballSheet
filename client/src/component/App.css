@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  
+  background-image:url('https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?cs=srgb&dl=pexels-jonathan-petersson-399187.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secnddiv{
+  position: relative;
+  left: 250px;
+}
+.asemi {
+  font-size: large;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.ktiba  {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 26px;
+    letter-spacing: -0.8px;
+    word-spacing: 2.6px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    }
+   
+
+
+
+button{display: inline-block;
+outline: 0;
+cursor: pointer;
+border: 2px solid #000;
+border-radius: 3px;
+color: #fff;
+background: #000;
+font-size: 10px;
+font-weight: 200;
+line-height: 20px;
+padding: 12px 20px;
+text-align:center;
+transition-duration: .15s;
+transition-property: all;
+transition-timing-function: cubic-bezier(.4,0,.2,1);}
+input{
+  padding: 6px;
+  font-size: 14px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
